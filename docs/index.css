@@ -62,7 +62,7 @@ p {
 }
   
 #p1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-family: bradley hand;
     text-align: center;
 }
@@ -72,7 +72,7 @@ p {
 }
   
 #tempo {
-    height: 275px;
+    height: 300px;
     background-image: linear-gradient(to bottom right, #d45a3b, #d02525);
     font-size: 110%;
     border-radius: 15px;
@@ -91,8 +91,14 @@ p {
     padding-left: 5%;
 }
 
+#raccolta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 #raccolta > img {
-    display: inline;
     border: 1px solid black;
-    padding-left: 2%;
+    width: 250px;
+    object-fit: contain;
 }
