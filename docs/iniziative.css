@@ -58,6 +58,34 @@ span
     font-weight: bolder;
 }
 
+#gallery1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#gallery1 img {
+    object-fit: contain;
+    width: 400px;
+    max-height: 250px;
+    margin: 2%;
+    border: 5px solid darkred;
+}
+
+#gallery5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#gallery5 img {
+    object-fit: contain;
+    width: 400px;
+    max-height: 250px;
+    margin: 2%;
+    border: 5px solid darkred;
+}
+
 .slideshow-container
 {
     max-width: 1000px;
@@ -102,7 +130,7 @@ span
 {
     background-color: darkred;
     color: white;
-}   
+}
   
   /* Fading animation */
 .fade 
@@ -123,4 +151,29 @@ span
 {
     from {opacity: .4}
     to {opacity: 1}
+}
+
+#gallery4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#gallery4 img {
+    object-fit: contain;
+    width: 450px;
+    max-height: 250px;
+    margin: 2%;
+}
+
+#primo_p {
+    border: 5px solid gold;
+}
+
+#secondo_p {
+    border: 5px solid silver;
+}
+
+#terzo_p {
+    border: 5px solid #cd7f32;
 }
