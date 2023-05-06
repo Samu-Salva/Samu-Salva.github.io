@@ -68,7 +68,7 @@ span
     object-fit: contain;
     width: 400px;
     max-height: 250px;
-    margin: 2%;
+    margin: auto;
     border: 5px solid darkred;
 }
 
@@ -176,4 +176,13 @@ span
 
 #terzo_p {
     border: 5px solid #cd7f32;
+}
+
+@media all and (max-width: 768px) 
+{ 
+    #gallery4 img, #gallery5 img, #gallery1 img{
+        width: 350px;
+        margin: auto;
+        margin-top: 1%;
+    }
 }

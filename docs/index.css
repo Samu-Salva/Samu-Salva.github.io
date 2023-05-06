@@ -101,4 +101,5 @@ p {
     border: 1px solid black;
     width: 250px;
     object-fit: contain;
+    margin-top: 1%;
 }
