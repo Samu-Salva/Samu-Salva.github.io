@@ -2,7 +2,7 @@ nav {
     background-image: linear-gradient(to bottom right, green, darkgreen);
     width: 100%;
     height: 250px;
-    border-radius: 15px;
+    border-radius: 25px;
     position: sticky;
     top: 5px;
 }
@@ -102,4 +102,12 @@ p {
     width: 250px;
     object-fit: contain;
     margin-top: 1%;
+}
+
+@media all and (max-width: 768px) 
+{
+    nav ul {
+        display: inline-block;
+        padding-left: 3%;
+    }
 }
