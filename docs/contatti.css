@@ -1,5 +1,5 @@
-html{
-    background-image: linear-gradient( moccasin, whitesmoke);
+body{
+    background-color: moccasin;    
     background-repeat: no-repeat;
     height: 100%;
 }
@@ -19,7 +19,7 @@ nav {
 
 h1 {
     color: white;
-    font-size: 150%;
+    font-size: 1.5em;
     padding-left: 3%;
     display: inline-block;
     font-family: rockwell;
@@ -51,19 +51,19 @@ h2{
     font-family: 'Courier New', Courier, monospace;
     padding-left: 5%;
     color: brown;
-    font-size: 200%;
+    font-size: 2em;
 
 }
 
 p{
     padding-left: 5%;
-    font-size: 140%;
+    font-size: 1.4em;
 }
 
 #spec{
-    font-size: 115%;
+    font-size: 1.15em;
     text-align: right;
-    padding-right: 10%;
+    padding-right: 7%;
 }
 
 @media all and (max-width: 768px) 

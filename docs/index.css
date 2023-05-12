@@ -13,7 +13,7 @@ nav {
 
 h1 {
     color: white;
-    font-size: 150%;
+    font-size: 1.5em;
     padding-left: 3%;
     display: inline-block;
     font-family: rockwell;
@@ -58,23 +58,22 @@ img {
 
 p {
     font-family: rockwell;
-    font-size: 1.15rem;
+    font-size: 1.15em;
 }
   
 #p1 {
-    font-size: 1.7rem;
+    font-size: 1.7em;
     font-family: bradley hand;
     text-align: center;
 }
   
 #p2 {
-    font-size: 1.1rem;
+    font-size: 1.1em;
 }
   
 #tempo {
     height: 300px;
     background-image: linear-gradient(to bottom right, #d45a3b, #d02525);
-    font-size: 110%;
     border-radius: 15px;
     padding-left: 3%;
     padding-top: 1%;
@@ -87,8 +86,8 @@ p {
 
 #demo {
     color: white;
-    font-size: xx-large;
-    padding-left: 5%;
+    font-size: 1.2em;
+    padding-left: 3%;
 }
 
 #raccolta {
