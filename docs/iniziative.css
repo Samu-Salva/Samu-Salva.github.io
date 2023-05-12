@@ -181,7 +181,7 @@ span
 @media all and (max-width: 768px) 
 { 
     #gallery4 img, #gallery5 img, #gallery1 img{
-        width: 350px;
+        width: 90%;
         margin: auto;
         margin-top: 1%;
     }
